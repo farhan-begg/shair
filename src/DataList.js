@@ -14,9 +14,9 @@ const DataList = () => {
         {dataField:'Make_ID', text: 'Make ID',filter: textFilter(), sort: true, },
         {dataField:'Make_Name', text: 'Make Name',filter: textFilter(), sort: true, },
         {dataField:'Model_ID', text: 'Model ID',filter: textFilter(), sort: true,  },
-        {dataField:'Model_Name', text: 'Model Name',filter: textFilter(), sort: true},
-        { dataField:'VehicleTypeName' , text: 'Vehicle Type',filter: textFilter(), sort: true},
-        { dataField:'Model_Year', text: '2015', sort: true,filter: textFilter()  }
+        {dataField:'Model_Name', text: 'Car Name',filter: textFilter(), sort: true},
+        { dataField:'VehicleTypeName' , text: 'Car Type',filter: textFilter(), sort: true},
+        { dataField:'Model_Year', text: 'Vehicle Year', sort: true,filter: textFilter()  }
     ]
     // boostrap paginatation 
     const pagination = paginationFactory({
